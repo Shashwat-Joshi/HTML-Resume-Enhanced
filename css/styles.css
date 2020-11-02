@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  /*5.625em is equivalent to 562.5%, use rem instead on em so that you dont inherit it from the parent*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /*line-height: 2;*/
+}
+
+h2 {
+  color: #66BFBF;
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-desc {
+  line-height: 2;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #E4F9F5;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px 0 5px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.profilePic {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  border-radius: 100%;
+  width: 25%;
+}
+
+
+.appdev-img {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.webdev-img {
+  border-radius: 100%;
+  width: 25%;
+  background-color: #ffe2e2;
+  float: left;
+  margin-right: 30px;
+}
+
+.dev-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.adev {
+  font-weight: normal;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.my-description-text {
+  width: 75%;
+  margin: 50px auto;
+
+}
+
+.profile {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+hr {
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  color: #EAF6F6;
+}
+
+
+.contact-me {
+  width: 50%;
+  margin: 80px auto 0;
+}
+
+.get-in-touch-text {
+  margin: 0;
+}
+
+.work-on-some-projects-text {
+  line-height: 3;
+}
+
+.btn {
+  color: white;
+  background-color: #11999E;
+  border: none;
+  font-size: 18px;
+  padding: 10px 30px;
+  margin: 40px auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.copyright {
+  padding: 20px 10px 0;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
